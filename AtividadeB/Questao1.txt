@@ -1,0 +1,16 @@
+(2,0) Sobre Orientação a Objetos, construa um mini-texto usando como guia o itens abaixo:
+a. Relação Programação Estruturada(imperativa) x Programação Orientada a Objetos
+b. Classe e Objeto, Variável, Referência, Objeto, Instância
+c. Estado de um Objeto, Membros dos Objetos e seu papel
+
+a) Na programação imperativa as funções causa muita repetição de código, enquanto na OO, os códigos podem ser economizados,
+ ou reutilizados evitando repetiçãos.
+ b) Classes é um conjunto de atributos que formam o objeto,
+   As variáves armazenam os valores atribuídos a elas enquanto são manipuladas no código.
+   Refênciação é o recurso utilizado para acessar os os objetos e métodos dentro do código.
+   Instanciação é a inicialização ou criação do objeto.
+   Objeto é a prórpria instancia formada apartir da classe que transforma um objeto real a ser manipulado.
+   
+   c) O papael do objeto é fazer a modularização e manipulação deste dentro do código, onde sera instanciado e referenciado.
+     
+   

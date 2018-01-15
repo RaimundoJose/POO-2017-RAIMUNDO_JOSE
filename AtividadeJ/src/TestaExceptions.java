@@ -8,7 +8,7 @@ public class TestaExceptions {
 		metodo1();
 	 //    }
 		//catch (NullPointerException e) {
-	//	System.out.println("Erro: metódo em Pilha "+e);
+	//	System.out.println("Erro: metÃ³do em Pilha "+e);
 		//}
 	       System.out.println("fim do main");
 	   }
@@ -19,7 +19,7 @@ public class TestaExceptions {
 	       metodo2();
 	     }
 	   catch (NullPointerException e) {
-			System.out.println("Erro :  metódo em Pilha"+e);
+			System.out.println("Erro :  metÃ³do em Pilha"+e);
 		}
 	       System.out.println("fim do metodo1");
 	   }
@@ -49,7 +49,7 @@ public class TestaExceptions {
 				new java.io.FileInputStream("arquivo.txt");
 			} catch (FileNotFoundException e) {
 				
-				System.out.println("\nErro:  Arquivo Inexistente,impossível abrí-lo.");//e.printStackTrace();
+				System.out.println("\nErro:  Arquivo Inexistente,impossÃ­vel abrÃ­-lo.");//e.printStackTrace();
 			}
 		
 		}
@@ -76,7 +76,7 @@ public class TestaExceptions {
 	   c.setNumero(10);
 	   c.setSaldo(2000.0);
 	   try{
-	   c.deposita(100);
+	   c.deposita(-100);
 	   }
 	   catch (IllegalArgumentException e) {
 		System.out.println("Saldo insuficiente");
@@ -86,9 +86,9 @@ public class TestaExceptions {
 	   try {
 	       c.saca(15000.0);
 	   } catch (IllegalArgumentException e) {
-	       System.out.println("Saldo Insuficiente, seu saldo é "+ c.getSaldo());
+	       System.out.println("Saldo Insuficiente, seu saldo Ã© "+ c.getSaldo());
 	   }
-	 //  System.out.println("\nO saldo é: "+ c.getSaldo());
+	 //  System.out.println("\nO saldo Ã©: "+ c.getSaldo());
 	}
 	
 	}

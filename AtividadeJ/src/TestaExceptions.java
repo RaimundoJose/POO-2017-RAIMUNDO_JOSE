@@ -79,7 +79,7 @@ public class TestaExceptions {
 	   c.deposita(-100);
 	   }
 	   catch (IllegalArgumentException e) {
-		System.out.println("Saldo insuficiente");
+		System.out.println("Valor  Inválido");
 	}
 	   contacorrente.deposita(1000.0);
 
